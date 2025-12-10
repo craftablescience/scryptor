@@ -72,8 +72,7 @@ jobs:
         run: |
           cmake --build . --config ${{matrix.build_type}} -t scryptor -- -j$(nproc)
 
-      - name: Upload Standalone [cpack_generator:DEB]
-        if: ${{matrix.cpack_generator == 'DEB'}}
+      - name: Upload Standalone
         uses: actions/upload-artifact@v4
         with:
           name: 'scryptor-Linux-Standalone-gcc-${{matrix.build_type}}'
