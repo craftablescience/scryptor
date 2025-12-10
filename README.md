@@ -20,3 +20,7 @@ A tool to freely encrypt or decrypt Source engine file formats.
 
 1. Download the executable that corresponds to your operating system from the Releases section on the right.
 2. Drag files on top of it, they will be encrypted or decrypted depending on what makes sense for each file.
+
+## Backend
+
+This tool is powered by a collection of open-source C++20 Source engine parsers called [sourcepp](https://sourcepp.org).
