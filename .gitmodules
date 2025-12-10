@@ -1,0 +1,6 @@
+[submodule "cmake/helpers"]
+	path = cmake/helpers
+	url = https://github.com/craftablescience/cmake-helpers
+[submodule "ext/sourcepp"]
+	path = ext/sourcepp
+	url = https://github.com/craftablescience/sourcepp
